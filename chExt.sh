@@ -1,5 +1,5 @@
 #!/bin/bash
-for f in /etc/snc-mid-dev/agent/resumes/*; do
+for f in /your/path/and/files/*; do
   pot="$(file $f -b --mime-type)"
   echo "${pot}"
     case ${pot} in
